@@ -1,0 +1,22 @@
+{
+  "name": "demo3",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-hot-loader": "^1.3.1",
+    "react-scripts": "0.8.4",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "dev": "node server.js",
+    "build": "webpack",
+    "deploy": "webpack --progress --config webpack.production.config.js",
+    "eject": "react-scripts eject"
+  }
+}
